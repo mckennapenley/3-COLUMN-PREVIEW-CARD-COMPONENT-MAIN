@@ -47,7 +47,7 @@ button {
   margin: 50px;
   background-color: hsl(0, 0%, 95%);
   width: 140px;
-  height: 40px;
+  height: 50px;
   border-radius: 50px;
   border: none;
   font-family: "Lexend Deca", sans-serif;
@@ -62,12 +62,24 @@ button {
   color: hsl(31, 77%, 52%);
 }
 
+#sedans-card button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
 #suvs-card {
   background-color: hsl(184, 100%, 22%);
 }
 
 #suvs-card button {
   color: hsl(184, 100%, 22%);
+}
+
+#suvs-card button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
 }
 
 #luxury-card {
@@ -77,4 +89,10 @@ button {
 
 #luxury-card button {
   color: hsl(179, 100%, 13%);
+}
+
+#luxury-card button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
 }

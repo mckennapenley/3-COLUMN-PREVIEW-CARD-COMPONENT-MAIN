@@ -1,20 +1,19 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 body {
-  display: flex;
+  /* display: flex; */
   background-color: hsl(0, 0%, 95%);
 }
 
 #container {
   display: flex;
+}
+
+#card-container {
+  display: flex;
   flex-flow: row nowrap;
   margin: 200px 250px;
+  /* height: 500px;
+  width: 900px;
+  margin: auto; */
 }
 
 .card {
@@ -96,21 +95,31 @@ button {
   border: 2px solid hsl(0, 0%, 95%);
 }
 
-@media (max-width: 800px) {
-  #container {
+/* @media (max-width: 800px) {
+  #card-container {
     margin: 75px 10px;
   }
-}
+} */
 
 @media (max-width: 375px) {
-  #container {
+  #card-container {
     flex-direction: column;
     margin: 75px 10px;
+    /* height: 600px; */
+  }
+  .card {
+    width: 300px;
   }
   button {
     margin: 10px 50px 50px 50px;
   }
   .card p {
     margin: 15px 50px 10px 50px;
+  }
+  #sedans-card {
+    border-radius: 7px 7px 0px 0px;
+  }
+  #luxury-card {
+    border-radius: 0px 0px 7px 7px;
   }
 }

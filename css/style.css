@@ -14,7 +14,6 @@ body {
 #container {
   display: flex;
   flex-flow: row nowrap;
-  top: 50%;
   margin: 200px 250px;
 }
 
@@ -95,4 +94,23 @@ button {
   background-color: hsl(179, 100%, 13%);
   color: hsl(0, 0%, 95%);
   border: 2px solid hsl(0, 0%, 95%);
+}
+
+@media (max-width: 800px) {
+  #container {
+    margin: 75px 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  #container {
+    flex-direction: column;
+    margin: 75px 10px;
+  }
+  button {
+    margin: 10px 50px 50px 50px;
+  }
+  .card p {
+    margin: 15px 50px 10px 50px;
+  }
 }

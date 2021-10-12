@@ -27,6 +27,7 @@ body {
   font-family: "Lexend Deca", sans-serif;
   margin: 15px 30px 50px 50px;
   line-height: 25px;
+  min-height: 175px;
 }
 
 .card h1 {
@@ -108,7 +109,7 @@ button {
     /* height: 600px; */
   }
   .card {
-    width: 300px;
+    width: 340px;
   }
   button {
     margin: 10px 50px 50px 50px;

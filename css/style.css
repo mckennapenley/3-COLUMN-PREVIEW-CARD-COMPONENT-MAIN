@@ -1,0 +1,80 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  display: flex;
+  background-color: hsl(0, 0%, 95%);
+}
+
+#container {
+  display: flex;
+  flex-flow: row nowrap;
+  top: 50%;
+  margin: 200px 250px;
+}
+
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.card p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  margin: 15px 30px 50px 50px;
+  line-height: 25px;
+}
+
+.card h1 {
+  font-family: "Big Shoulders Display", cursive;
+  margin: 15px 50px;
+  color: hsl(0, 0%, 95%);
+}
+
+.icon {
+  height: 45px;
+  width: 60px;
+  margin: 50px 30px 15px 50px;
+}
+
+button {
+  margin: 50px;
+  background-color: hsl(0, 0%, 95%);
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+#sedans-card {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 7px 0px 0px 7px;
+}
+
+#sedans-card button {
+  color: hsl(31, 77%, 52%);
+}
+
+#suvs-card {
+  background-color: hsl(184, 100%, 22%);
+}
+
+#suvs-card button {
+  color: hsl(184, 100%, 22%);
+}
+
+#luxury-card {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 7px 7px 0px;
+}
+
+#luxury-card button {
+  color: hsl(179, 100%, 13%);
+}

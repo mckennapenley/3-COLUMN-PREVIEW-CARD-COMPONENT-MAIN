@@ -65,6 +65,7 @@ button {
   background-color: hsl(31, 77%, 52%);
   color: hsl(0, 0%, 95%);
   border: 2px solid hsl(0, 0%, 95%);
+  cursor: pointer;
 }
 
 #suvs-card {
@@ -79,6 +80,7 @@ button {
   background-color: hsl(184, 100%, 22%);
   color: hsl(0, 0%, 95%);
   border: 2px solid hsl(0, 0%, 95%);
+  cursor: pointer;
 }
 
 #luxury-card {
@@ -94,6 +96,7 @@ button {
   background-color: hsl(179, 100%, 13%);
   color: hsl(0, 0%, 95%);
   border: 2px solid hsl(0, 0%, 95%);
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {

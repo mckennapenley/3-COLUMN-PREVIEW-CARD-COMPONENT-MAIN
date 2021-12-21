@@ -9,7 +9,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
- 
 
 ## Overview
 
@@ -23,15 +22,14 @@ Users should be able to:
 ### Screenshot
 
 ![desktop view](images/desktop_view.png)
+
 <p align="center">
 <img src="images/mobile_view.png" height="500px">
 <p>
 
-
 ### Links
 
--  See the soltuion live, [here](https://3-column-preview-card-component-main-ecru-seven.vercel.app/)
-
+- See the solution live, [here](https://3-column-preview-card-component-main-ecru-seven.vercel.app/)
 
 ### Built with
 
@@ -39,4 +37,3 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-
